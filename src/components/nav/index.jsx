@@ -1,10 +1,11 @@
-/* eslint-disable jsx-a11y/anchor-is-valid */
 import { React, useState } from 'react';
 import { useTranslation } from 'react-i18next';
-import './nav.css';
+import { NavLink } from "react-router-dom";
 import { AiOutlineHome, AiOutlineUser } from 'react-icons/ai';
 import { BiBook, BiMessageSquareDetail, BiBookOpen } from 'react-icons/bi';
 import { RiServiceLine } from 'react-icons/ri';
+//import { BsPeopleFill } from 'react-icons/bs';
+import './nav.css';
 
 const Nav = () => {
   const { t } = useTranslation();
@@ -12,54 +13,62 @@ const Nav = () => {
 
   return (
     <nav>
-      <a 
-        href="#"
+      <NavLink
+        to="/"
         title={t("home")}
         onClick={() => setActiveNav('#')}
         className={activeNav === '#' ? 'active' : ''}
-      >    
-        <AiOutlineHome /> 
-      </a>
-      <a 
-        href="#about"
+      >
+        <AiOutlineHome />
+      </NavLink>
+      <NavLink
+        to="/about"
         title={t("about")}
         onClick={() => setActiveNav('#about')}
         className={activeNav === '#about' ? 'active' : ''}
-      > 
-        <AiOutlineUser /> 
-      </a>
-      <a
-        href="#skills" 
+      >
+        <AiOutlineUser />
+      </NavLink>
+      <NavLink
+        to="/skills"
         title={t("skills")}
         onClick={() => setActiveNav('#skills')}
         className={activeNav === '#skills' ? 'active' : ''}
       >
-        <BiBook /> 
-      </a>
-      <a 
-        href="#services"  
+        <BiBook />
+      </NavLink>
+      <NavLink
+        to="/services"
         title={t("services")}
         onClick={() => setActiveNav('#services')}
         className={activeNav === '#services' ? 'active' : ''}
-      >    
-        <RiServiceLine /> 
-      </a>
-      <a 
-        href="#portfolio"
-        title='projects'
+      >
+        <RiServiceLine />
+      </NavLink>
+      <NavLink
+        to="/portfolio"
+        title={t('portfolio')}
         onClick={() => setActiveNav('#portfolio')}
         className={activeNav === '#portfolio' ? 'active' : ''}
-      >    
-        <BiBookOpen /> 
-      </a>
-      <a
-        href="#contact"
-        title={t("contact")}  
+      >
+        <BiBookOpen />
+      </NavLink>
+      {/* <NavLink
+        to="/testimonials"
+        title={t('testimonials')}
+        onClick={() => setActiveNav('#testimonials')}
+        className={activeNav === '#testimonials' ? 'active' : ''}
+      >
+        <BsPeopleFill />
+      </NavLink> */}
+      <NavLink
+        to="/contact"
+        title={t("contact")}
         onClick={() => setActiveNav('#contact')}
         className={activeNav === '#contact' ? 'active' : ''}
       >
-        <BiMessageSquareDetail /> 
-      </a>
+        <BiMessageSquareDetail />
+      </NavLink>
     </nav>
   )
 }

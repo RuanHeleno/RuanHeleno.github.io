@@ -82,8 +82,8 @@ const data = [
     image: OldPortfolio,
     title: 'Old Portfolio',
     languages: ['Javascript', 'React Js', 'Bootstrap5'],
-    github: 'https://github.com/RuanHeleno/DIO-Projects/tree/main/GeniusGame',
-    demo: 'https://geniuswebgame.netlify.app/'
+    github: 'https://github.com/RuanHeleno/OldPortfolio',
+    demo: 'https://oldportfoliorh.netlify.app/'
   }
 ]
 
@@ -107,9 +107,7 @@ const Portfolio = () => {
                   <h3>{title}</h3>
                   <p className="text-light">
                     {
-                      languages.map((lang) => {
-                        return <span>{lang}</span>
-                      })
+                      languages.map((lang) => <span>{lang}</span>)
                     }
                   </p>
                   <div className="portfolio__item-cta">

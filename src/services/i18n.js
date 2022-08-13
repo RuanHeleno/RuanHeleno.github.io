@@ -10,6 +10,7 @@ const resources = {
             skills: "Habilidades",
             services: "Serviços",
             portfolio: "Projetos",
+            testimonials: "Depoimentos",
             contact: "Contato",
             /* header */
             phrase1: "Olá, eu sou",
@@ -77,6 +78,7 @@ const resources = {
             skills: "Skills",
             services: "Services",
             portfolio: "Projects",
+            testimonials: "Testimonials",
             contact: "Contact",
             /* header */
             phrase1: "Hello, I'm",
