@@ -57,6 +57,7 @@ const resources = {
             fullName: "Nome Completo",
             email: "exemplo@exemplo.com",
             message: "Mensagem",
+            sendMessage: "Enviar Mensagem",
             success: "Enviado com sucesso!",
             fail: "Falha no Envio!",
             /* footer */
@@ -125,6 +126,7 @@ const resources = {
             fullName: "Your Full Name",
             email: "example@example.com",
             message: "Your message",
+            sendMessage: "Send Message",
             success: "Sucessfull!",
             fail: "Fail!",
             /* footer */

@@ -64,7 +64,7 @@ const Contact = () => {
           <input type="email" name='email' placeholder={t('email')} required />
           <textarea name="message" rows="7" placeholder={t('message')} required></textarea>
 
-          <button type="submit" className='btn btn-primary'>Send Message</button>
+          <button type="submit" className='btn btn-primary'>{t('sendMessage')}</button>
 
           <p id='success'> <BiMessageCheck className='form-icon' /> {t("success")} </p>
           <p id='fail'> <MdDangerous className='form-icon' /> {t("fail")} </p>

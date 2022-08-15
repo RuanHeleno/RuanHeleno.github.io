@@ -14,7 +14,6 @@
     "react-i18next": "^11.18.3",
     "react-icons": "^4.4.0",
     "react-router-dom": "^6.3.0",
-    "react-router-hash-link": "^2.4.3",
     "react-scripts": "5.0.1",
     "react-ts-typewriter": "^0.1.8-b",
     "swiper": "^8.3.2"
