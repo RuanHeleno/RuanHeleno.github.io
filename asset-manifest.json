@@ -1,8 +1,7 @@
 {
   "files": {
-    "main.css": "/static/css/main.603f6c33.css",
-    "main.js": "/static/js/main.dcec70f2.js",
-    "static/media/CV.pdf": "/static/media/CV.d4f8912dfd26f320b139.pdf",
+    "main.css": "/static/css/main.b988f48f.css",
+    "main.js": "/static/js/main.3068b380.js",
     "static/media/FrontEndMentor.png": "/static/media/FrontEndMentor.19cfe22149d96f25fb44.png",
     "static/media/OldPortfolio.png": "/static/media/OldPortfolio.fcb73c019e218b307fe2.png",
     "static/media/Covid19inWorld.png": "/static/media/Covid19inWorld.8538e1220b7edcef0b83.png",
@@ -14,12 +13,13 @@
     "static/media/eu.jpeg": "/static/media/eu.e193a8a3b1f4c0471308.jpeg",
     "static/media/GeniusGame.png": "/static/media/GeniusGame.6e9cc43c2d679d1e26a9.png",
     "static/media/CurriculumVitae.png": "/static/media/CurriculumVitae.619a2e50079c2bb3e557.png",
+    "static/media/CV.pdf": "/static/media/CV.a652afe61f461c56437c.pdf",
     "index.html": "/index.html",
-    "main.603f6c33.css.map": "/static/css/main.603f6c33.css.map",
-    "main.dcec70f2.js.map": "/static/js/main.dcec70f2.js.map"
+    "main.b988f48f.css.map": "/static/css/main.b988f48f.css.map",
+    "main.3068b380.js.map": "/static/js/main.3068b380.js.map"
   },
   "entrypoints": [
-    "static/css/main.603f6c33.css",
-    "static/js/main.dcec70f2.js"
+    "static/css/main.b988f48f.css",
+    "static/js/main.3068b380.js"
   ]
 }
