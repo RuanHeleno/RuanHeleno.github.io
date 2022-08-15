@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/static/css/main.b988f48f.css",
-    "main.js": "/static/js/main.3068b380.js",
+    "main.css": "/static/css/main.0347bb91.css",
+    "main.js": "/static/js/main.658be734.js",
     "static/media/FrontEndMentor.png": "/static/media/FrontEndMentor.19cfe22149d96f25fb44.png",
     "static/media/OldPortfolio.png": "/static/media/OldPortfolio.fcb73c019e218b307fe2.png",
     "static/media/Covid19inWorld.png": "/static/media/Covid19inWorld.8538e1220b7edcef0b83.png",
@@ -15,11 +15,11 @@
     "static/media/CurriculumVitae.png": "/static/media/CurriculumVitae.619a2e50079c2bb3e557.png",
     "static/media/CV.pdf": "/static/media/CV.a652afe61f461c56437c.pdf",
     "index.html": "/index.html",
-    "main.b988f48f.css.map": "/static/css/main.b988f48f.css.map",
-    "main.3068b380.js.map": "/static/js/main.3068b380.js.map"
+    "main.0347bb91.css.map": "/static/css/main.0347bb91.css.map",
+    "main.658be734.js.map": "/static/js/main.658be734.js.map"
   },
   "entrypoints": [
-    "static/css/main.b988f48f.css",
-    "static/js/main.3068b380.js"
+    "static/css/main.0347bb91.css",
+    "static/js/main.658be734.js"
   ]
 }
