@@ -5,7 +5,7 @@
 - [Overview](#overview)
   - [Features](#features)
   - [Preview](#preview)
-  - [Demo](#demo)]
+  - [Demo](#demo)
   - [Sections](#sections)
 - [Process](#process)
   - [Built with](#built-with)
