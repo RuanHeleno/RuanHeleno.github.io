@@ -2,9 +2,10 @@ import React from 'react';
 import { useTranslation } from 'react-i18next';
 import './portfolio.css';
 
+import CurriculumVitae from '../../assets/Projects/CurriculumVitae.png';
 import CartShopping from '../../assets/Projects/CartShopping.png';
 import Covid19inWorld from '../../assets/Projects/Covid19inWorld.png';
-import CurriculumVitae from '../../assets/Projects/CurriculumVitae.png';
+import FinanceControl from '../../assets/Projects/FinanceControl.png';
 import FrontEndMentor from '../../assets/Projects/FrontEndMentor.png';
 import LandingPages from '../../assets/Projects/LandingPages.png';
 import GithubSearchProfile from '../../assets/Projects/GithubSearchProfile.png';
@@ -39,6 +40,14 @@ const data = [
   },
   {
     id: 4,
+    image: FinanceControl,
+    title: 'Finance Control',
+    languages: ['Javascript', 'React Js', 'React Hooks'],
+    github: 'https://github.com/RuanHeleno/FinanceControl',
+    demo: 'https://financecontrolrh.netlify.app/'
+  },
+  {
+    id: 5,
     image: GithubSearchProfile,
     title: 'Github Search Profile',
     languages: ['Javascript', 'React Js'],
@@ -46,7 +55,7 @@ const data = [
     demo: 'https://githubsearchprofiles.netlify.app/'
   },
   {
-    id: 5,
+    id: 6,
     image: FrontEndMentor,
     languages: ['HTML5', 'CSS3', 'Bootstrap5'],
     title: 'Frontend Mentor',
@@ -54,7 +63,7 @@ const data = [
     demo: 'https://frontendmentorchallengesrh.netlify.app/'
   },
   {
-    id: 6,
+    id: 7,
     image: LandingPages,
     title: 'Landing Pages',
     languages: ['HTML5', 'CSS3', 'Bootstrap5'],
@@ -62,7 +71,7 @@ const data = [
     demo: 'https://ladingpagesrh.netlify.app/'
   },
   {
-    id: 7,
+    id: 8,
     image: RescueGame,
     title: 'Rescue Game',
     languages: ['HTML5', 'CSS3', 'Javascript', 'JQuery'],
@@ -70,7 +79,7 @@ const data = [
     demo: 'https://rescuegame.netlify.app/'
   },
   {
-    id: 8,
+    id: 9,
     image: GeniusGame,
     title: 'Genius Game',
     languages: ['HTML5', 'CSS3', 'Javascript'],
@@ -78,7 +87,7 @@ const data = [
     demo: 'https://geniuswebgame.netlify.app/'
   },
   {
-    id: 9,
+    id: 10,
     image: OldPortfolio,
     title: 'Old Portfolio',
     languages: ['Javascript', 'React Js', 'Bootstrap5'],
