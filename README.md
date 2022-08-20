@@ -29,8 +29,6 @@
 
 ### Sections
 
-The site consists of 6 different sections:
-
 - **Home:** It is a welcome to my website;
 - **About me:** It has a brief description about my life;
 - **Skills:** My skills based on projects already created in the area;
