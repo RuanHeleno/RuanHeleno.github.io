@@ -6,7 +6,6 @@ import Portfolio from './portfolio';
 //import Testimonials from './testimonials';
 import Contact from './contact';
 import Footer from './footer';
-import Layout from './layout';
 
 export {
     Header,
@@ -16,6 +15,5 @@ export {
     Portfolio, 
     /* Testimonials,  */
     Contact,
-    Footer,
-    Layout
+    Footer
 }

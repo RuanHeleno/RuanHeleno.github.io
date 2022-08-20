@@ -20,7 +20,7 @@
 
 ### Preview
 
-![Project](./src//Assets/Images/preview.png)
+![Project](./src/Assets/Images/preview.png)
 
 
 ### Demo
@@ -40,7 +40,7 @@ The site consists of 6 different sections:
 
 ## :newspaper: Process
 
-## Built with
+### Built with
 
 - [HTML5](https://www.w3schools.com/html/)
 - [CSS3](https://developer.mozilla.org/pt-BR/docs/Web/CSS)
