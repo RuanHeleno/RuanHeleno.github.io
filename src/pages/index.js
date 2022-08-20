@@ -6,19 +6,16 @@ import Portfolio from './portfolio';
 //import Testimonials from './testimonials';
 import Contact from './contact';
 import Footer from './footer';
+import Layout from './layout';
 
-const Page = () => {
-    return (
-        <>
-            <Header />
-            <About />
-            <Skills />
-            <Services />
-            <Portfolio />
-            <Contact />
-            <Footer />
-        </>
-    )
+export {
+    Header,
+    About,
+    Skills, 
+    Services, 
+    Portfolio, 
+    /* Testimonials,  */
+    Contact,
+    Footer,
+    Layout
 }
-
-export default Page

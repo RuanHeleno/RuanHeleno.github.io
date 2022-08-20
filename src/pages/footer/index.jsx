@@ -8,7 +8,7 @@ const Footer = () => {
   const { t } = useTranslation();
 
   return (
-    <footer>
+    <footer id='footer'>
       <a href="https://github.com/RuanHeleno" target="_blank" rel="noreferrer" className='footer__logo'>Ruan Heleno</a>
 
       <ul className="permalinks">

@@ -12,11 +12,11 @@ const resources = {
             portfolio: "Projetos",
             testimonials: "Depoimentos",
             contact: "Contato",
+            scrollDown: "Ir para o Final",
             /* header */
             phrase1: "Olá, eu sou",
             phrase2: "Aprendizado focado em Javascript e React JS",
             phrase4: "Vamos Conversar",
-            scrollDown: "Descer tudo",
             /* about */
             knowMore: "Saiba mais",
             aboutMe: "Sobre mim",
@@ -81,11 +81,11 @@ const resources = {
             portfolio: "Projects",
             testimonials: "Testimonials",
             contact: "Contact",
+            scrollDown: "Scroll Down",
             /* header */
             phrase1: "Hello, I'm",
             phrase2: "Learning focused on Javascript and React JS",
             phrase4: "Let's Talk",
-            scrollDown: "Scroll Down",
             /* about */
             knowMore: "Get to Know",
             aboutMe: "About me",
@@ -146,7 +146,7 @@ i18next
     .use(initReactI18next)
     .init({
         resources,
-        lng: "en",
+        lng: "pt",
         interpolation: {
             escapeValue: false,
         },

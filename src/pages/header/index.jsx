@@ -29,12 +29,11 @@ const Header = () => {
         <CTA />
         <HeaderSocials />
 
-        <div className="me">
+        <div className='me'>
           <img src={ME} alt="me" />
         </div>
       </div>
 
-      <a href="#contact" className="scroll__down">{t("scrollDown")}</a>
     </header>
   )
 }
