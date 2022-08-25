@@ -10,7 +10,7 @@ import {
   /* Testimonials, */
   Contact,
   Footer
-} from './components';
+} from './pages';
 
 const App = () => {
   return (

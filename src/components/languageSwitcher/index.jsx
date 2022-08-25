@@ -1,7 +1,7 @@
 import React from "react";
 import { useTranslation } from "react-i18next";
- 
-import './languageSwitcher.css';
+
+import "./languageSwitcher.css";
 
 function LanguageSwitcher() {
   const { i18n } = useTranslation();
@@ -10,9 +10,7 @@ function LanguageSwitcher() {
       <select
         className="minimal"
         value={i18n.language}
-        onChange={(e) =>
-          i18n.changeLanguage(e.target.value)
-        }
+        onChange={(e) => i18n.changeLanguage(e.target.value)}
       >
         <option value="pt"> Português</option>
         <option value="en">Inglês</option>
@@ -20,4 +18,5 @@ function LanguageSwitcher() {
     </div>
   );
 }
+
 export default LanguageSwitcher;

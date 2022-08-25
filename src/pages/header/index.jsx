@@ -6,7 +6,7 @@ import './header.css';
 import CTA from './CTA';
 import ME from '../../assets/me.png';
 import HeaderSocials from './HeaderSocials';
-import LanguageSwitcher from '../languageSwitcher';
+import LanguageSwitcher from "../../components/languageSwitcher";
 
 const Header = () => {
   const { t } = useTranslation();

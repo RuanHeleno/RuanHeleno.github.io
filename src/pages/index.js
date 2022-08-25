@@ -1,5 +1,5 @@
 import Header from './header';
-import Nav from './nav';
+import Nav from '../components/nav';
 import About from './about';
 import Skills from './skills';
 import Services from './services';
