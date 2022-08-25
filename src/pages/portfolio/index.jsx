@@ -6,12 +6,12 @@ import CurriculumVitae from '../../assets/Projects/CurriculumVitae.png';
 import CartShopping from '../../assets/Projects/CartShopping.png';
 import Covid19inWorld from '../../assets/Projects/Covid19inWorld.png';
 import FinanceControl from '../../assets/Projects/FinanceControl.png';
-import FrontEndMentor from '../../assets/Projects/FrontEndMentor.png';
-import LandingPages from '../../assets/Projects/LandingPages.png';
-import GithubSearchProfile from '../../assets/Projects/GithubSearchProfile.png';
-import RescueGame from '../../assets/Projects/RescueGame.png';
-import GeniusGame from '../../assets/Projects/GeniusGame.png';
-import OldPortfolio from '../../assets/Projects/OldPortfolio.png';
+import FrontEndMentor from '../../assets/Projects/FrontEndMentor.webp';
+import LandingPages from '../../assets/Projects/LandingPages.webp';
+import GithubSearchProfile from '../../assets/Projects/GithubSearchProfile.webp';
+import RescueGame from '../../assets/Projects/RescueGame.webp';
+import GeniusGame from '../../assets/Projects/GeniusGame.webp';
+import OldPortfolio from '../../assets/Projects/OldPortfolio.webp';
 
 const data = [
   {

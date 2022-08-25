@@ -2,10 +2,7 @@ import React from 'react';
 import { useTranslation } from 'react-i18next';
 import './testimonials.css';
 
-import AVTR1 from '../../assets/avatar1.jpg';
-import AVTR2 from '../../assets/avatar2.jpg';
-import AVTR3 from '../../assets/avatar3.jpg';
-import AVTR4 from '../../assets/avatar4.jpg';
+/* import AVTR1 from '../../assets/avatar1.jpg'; */
 
 import { Pagination } from 'swiper';
 import { Swiper, SwiperSlide } from 'swiper/react';
@@ -16,25 +13,10 @@ import 'swiper/css/pagination';
 const data = [
   {
     id: 1,
-    image: AVTR1,
+    /* image: AVTR1, */
     name: 'Tina Snow',
     review: 'Lorem Ipsum dolor sit amet, consectetur adipiscing elit adipiscing elit. Cum societat cupiditat non proident, consectetur adipiscing elit. Cum societat cupiditat non proident, consectetur adipiscing elit. Cum societat cupiditat non proident, consectetur adipiscing elit.'
-  },
-  {
-    id: 2,
-    image: AVTR2,
-    name: 'Shatta Wale',
-    review: 'Lorem Ipsum dolor sit amet, consectetur adipiscing elit adipiscing elit. Cum societat cupiditat non proident, consectetur adipiscing elit. Cum societat cupiditat non proident, consectetur adipiscing elit. Cum societat cupiditat non proident, consectetur adipiscing elit.'  },
-  {
-    id: 3,
-    image: AVTR3,
-    name: 'Kwame Despite',
-    review: 'Lorem Ipsum dolor sit amet, consectetur adipiscing elit adipiscing elit. Cum societat cupiditat non proident, consectetur adipiscing elit. Cum societat cupiditat non proident, consectetur adipiscing elit. Cum societat cupiditat non proident, consectetur adipiscing elit.'  },
-  {
-    id: 4,
-    image: AVTR4,
-    name: 'Nana Ama',
-    review: 'Lorem Ipsum dolor sit amet, consectetur adipiscing elit adipiscing elit. Cum societat cupiditat non proident, consectetur adipiscing elit. Cum societat cupiditat non proident, consectetur adipiscing elit. Cum societat cupiditat non proident, consectetur adipiscing elit.'  }
+  }
 ]
 
 const Testimonials = () => {
