@@ -1,14 +1,14 @@
 {
   "files": {
     "main.css": "/static/css/main.fdb2b6ec.css",
-    "main.js": "/static/js/main.a940b4ad.js",
+    "main.js": "/static/js/main.59226c29.js",
     "static/media/CV.pdf": "/static/media/CV.d4f8912dfd26f320b139.pdf",
     "static/media/FrontEndMentor.png": "/static/media/FrontEndMentor.19cfe22149d96f25fb44.png",
     "static/media/OldPortfolio.png": "/static/media/OldPortfolio.fcb73c019e218b307fe2.png",
     "static/media/Covid19inWorld.png": "/static/media/Covid19inWorld.8538e1220b7edcef0b83.png",
     "static/media/RescueGame.png": "/static/media/RescueGame.efe067f75bab2358fc53.png",
     "static/media/LandingPages.png": "/static/media/LandingPages.acad42a79795b331ec40.png",
-    "static/media/me.png": "/static/media/me.821ecddcb9953b46bf75.png",
+    "static/media/me.webp": "/static/media/me.f3794452ccf8cebe4e18.webp",
     "static/media/CartShopping.png": "/static/media/CartShopping.12bd868f77ceecff8338.png",
     "static/media/GithubSearchProfile.png": "/static/media/GithubSearchProfile.497900e0337fa3870d5e.png",
     "static/media/eu.jpeg": "/static/media/eu.e193a8a3b1f4c0471308.jpeg",
@@ -17,10 +17,10 @@
     "static/media/FinanceControl.png": "/static/media/FinanceControl.cf82b348cd34501dfdb0.png",
     "index.html": "/index.html",
     "main.fdb2b6ec.css.map": "/static/css/main.fdb2b6ec.css.map",
-    "main.a940b4ad.js.map": "/static/js/main.a940b4ad.js.map"
+    "main.59226c29.js.map": "/static/js/main.59226c29.js.map"
   },
   "entrypoints": [
     "static/css/main.fdb2b6ec.css",
-    "static/js/main.a940b4ad.js"
+    "static/js/main.59226c29.js"
   ]
 }
