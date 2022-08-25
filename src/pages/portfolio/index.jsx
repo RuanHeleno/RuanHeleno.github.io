@@ -3,15 +3,16 @@ import { useTranslation } from 'react-i18next';
 import './portfolio.css';
 
 import CurriculumVitae from '../../assets/Projects/CurriculumVitae.png';
+import RepositorySystem from '../../assets/Projects/RepositorySystem.png';
+import FinanceControl from '../../assets/Projects/FinanceControl.png';
 import CartShopping from '../../assets/Projects/CartShopping.png';
 import Covid19inWorld from '../../assets/Projects/Covid19inWorld.png';
-import FinanceControl from '../../assets/Projects/FinanceControl.png';
+import GithubSearchProfile from '../../assets/Projects/GithubSearchProfile.webp';
+import OldPortfolio from '../../assets/Projects/OldPortfolio.webp';
 import FrontEndMentor from '../../assets/Projects/FrontEndMentor.webp';
 import LandingPages from '../../assets/Projects/LandingPages.webp';
-import GithubSearchProfile from '../../assets/Projects/GithubSearchProfile.webp';
 import RescueGame from '../../assets/Projects/RescueGame.webp';
 import GeniusGame from '../../assets/Projects/GeniusGame.webp';
-import OldPortfolio from '../../assets/Projects/OldPortfolio.webp';
 
 const data = [
   {
@@ -24,6 +25,22 @@ const data = [
   },
   {
     id: 2,
+    image: RepositorySystem,
+    title: 'Repositorys CRUD',
+    languages: ['Javascript', 'React Js', 'Node Js'],
+    github: 'https://github.com/RuanHeleno/RepositoryCRUD',
+    demo: 'https://repositorycrudrh.netlify.app/'
+  },
+  {
+    id: 3,
+    image: FinanceControl,
+    title: 'Finance Control',
+    languages: ['Javascript', 'React Js'],
+    github: 'https://github.com/RuanHeleno/FinanceControl',
+    demo: 'https://financecontrolrh.netlify.app/'
+  },
+  {
+    id: 4,
     image: CartShopping,
     title: 'Cart Shopping',
     languages: ['Javascript', 'React Js'],
@@ -31,7 +48,7 @@ const data = [
     demo: 'https://cartshoppingsystem.netlify.app/'
   },
   {
-    id: 3,
+    id: 5,
     image: Covid19inWorld,
     title: 'Covid19',
     languages: ['Javascript', 'React Js'],
@@ -39,15 +56,7 @@ const data = [
     demo: 'https://covid19inworld.netlify.app/'
   },
   {
-    id: 4,
-    image: FinanceControl,
-    title: 'Finance Control',
-    languages: ['Javascript', 'React Js', 'React Hooks'],
-    github: 'https://github.com/RuanHeleno/FinanceControl',
-    demo: 'https://financecontrolrh.netlify.app/'
-  },
-  {
-    id: 5,
+    id: 6,
     image: GithubSearchProfile,
     title: 'Github Search Profile',
     languages: ['Javascript', 'React Js'],
@@ -55,7 +64,15 @@ const data = [
     demo: 'https://githubsearchprofiles.netlify.app/'
   },
   {
-    id: 6,
+    id: 7,
+    image: OldPortfolio,
+    title: 'Old Portfolio',
+    languages: ['Javascript', 'React Js', 'Bootstrap5'],
+    github: 'https://github.com/RuanHeleno/DIO-Projects/tree/main/GeniusGame',
+    demo: 'https://geniuswebgame.netlify.app/'
+  },
+  {
+    id: 8,
     image: FrontEndMentor,
     languages: ['HTML5', 'CSS3', 'Bootstrap5'],
     title: 'Frontend Mentor',
@@ -63,7 +80,7 @@ const data = [
     demo: 'https://frontendmentorchallengesrh.netlify.app/'
   },
   {
-    id: 7,
+    id: 9,
     image: LandingPages,
     title: 'Landing Pages',
     languages: ['HTML5', 'CSS3', 'Bootstrap5'],
@@ -71,7 +88,7 @@ const data = [
     demo: 'https://ladingpagesrh.netlify.app/'
   },
   {
-    id: 8,
+    id: 10,
     image: RescueGame,
     title: 'Rescue Game',
     languages: ['HTML5', 'CSS3', 'Javascript', 'JQuery'],
@@ -79,18 +96,10 @@ const data = [
     demo: 'https://rescuegame.netlify.app/'
   },
   {
-    id: 9,
+    id: 11,
     image: GeniusGame,
     title: 'Genius Game',
     languages: ['HTML5', 'CSS3', 'Javascript'],
-    github: 'https://github.com/RuanHeleno/DIO-Projects/tree/main/GeniusGame',
-    demo: 'https://geniuswebgame.netlify.app/'
-  },
-  {
-    id: 10,
-    image: OldPortfolio,
-    title: 'Old Portfolio',
-    languages: ['Javascript', 'React Js', 'Bootstrap5'],
     github: 'https://github.com/RuanHeleno/DIO-Projects/tree/main/GeniusGame',
     demo: 'https://geniuswebgame.netlify.app/'
   }
