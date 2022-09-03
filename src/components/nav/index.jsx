@@ -1,5 +1,6 @@
 /* eslint-disable jsx-a11y/anchor-is-valid */
-import { React, useState } from 'react';
+import React, { useState } from 'react';
+
 import { useTranslation } from 'react-i18next';
 import './nav.css';
 import { AiOutlineHome, AiOutlineUser } from 'react-icons/ai';

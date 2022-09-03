@@ -1,4 +1,10 @@
-import React from 'react';
+import React from "react";
+import {
+  MemoryRouter as Router,
+  Routes,
+  Route,
+  Navigate
+} from "react-router-dom";
 
 import {
   Header,
@@ -9,23 +15,35 @@ import {
   Portfolio,
   /* Testimonials, */
   Contact,
-  Footer
-} from './pages';
+  Footer,
+} from "./pages";
 
 const App = () => {
   return (
     <>
-      <Header />
-      <Nav />
-      <About />
-      <Skills />
-      <Services />
-      <Portfolio />
-      {/* <Testimonials /> */}
-      <Contact />
-      <Footer />
+      <Router>
+        <Nav />
+        <Routes>
+          <Route
+            path="/"
+            element={
+              <>
+                <Header />
+                <About />
+                <Skills />
+                <Services />
+                <Portfolio />
+                {/* <Testimonials /> */}
+                <Contact />
+                <Footer />
+              </>
+            }
+          ></Route>
+          <Route path="*" element={<Navigate to="/" />} />
+        </Routes>
+      </Router>
     </>
-  )
-}
+  );
+};
 
-export default App
+export default App;

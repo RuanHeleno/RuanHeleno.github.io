@@ -37,9 +37,9 @@ const resources = {
             /* services */
             aboutMyJobs: "Sobre meus serviços",
             cardOneTitle: "Desenvolvimento Web",
-            cardOneTopic1: "Criação de Sistemas Web: Landing Pages e Multipages",
+            cardOneTopic1: "Criação de Páginas Web: Landing Pages e Multi Pages",
             cardOneTopic2: "Melhorias de Layouts",
-            cardOneTopic3: "Adição e remoção de funcionalidades",
+            cardOneTopic3: "Alteração, adição e remoção de funcionalidades",
             cardOneTopic4: "Responsividade",
             cardOneTopic5: "Correção de bugs",
             /* portfolio */
@@ -58,6 +58,7 @@ const resources = {
             message: "Mensagem",
             success: "Enviado com sucesso!",
             fail: "Falha no Envio!",
+            sendMessage: "Enviar Mensagem",
             /* footer */
             menuHome: "Inicio",
             menuAbout: "Sobre mim",
@@ -104,7 +105,7 @@ const resources = {
             /* services */
             aboutMyJobs: "Services",
             cardOneTitle: "Web Development",
-            cardOneTopic1: "Creation of Web Systems: Landing Pages and Multipages",
+            cardOneTopic1: "Creation of Web Pages: Landing Pages and Multi Pages",
             cardOneTopic2: "Layouts Improvements",
             cardOneTopic3: "Change, add and remove features",
             cardOneTopic4: "Responsiveness",
@@ -124,6 +125,7 @@ const resources = {
             email: "example@example.com",
             message: "Your message",
             success: "Sucessfull!",
+            sendMessage: "Send Message",
             fail: "Fail!",
             /* footer */
             menuHome: "Home",

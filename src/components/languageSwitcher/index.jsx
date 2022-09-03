@@ -12,7 +12,7 @@ function LanguageSwitcher() {
         value={i18n.language}
         onChange={(e) => i18n.changeLanguage(e.target.value)}
       >
-        <option value="pt"> Português</option>
+        <option value="pt">Português</option>
         <option value="en">Inglês</option>
       </select>
     </div>
