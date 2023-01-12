@@ -1,28 +1,28 @@
 {
   "files": {
-    "main.css": "/static/css/main.e8099601.css",
-    "main.js": "/static/js/main.a1d1c0b1.js",
-    "static/media/CV.pdf": "/static/media/CV.d4f8912dfd26f320b139.pdf",
+    "main.css": "/static/css/main.d8c63b4e.css",
+    "main.js": "/static/js/main.2c83acfa.js",
+    "static/media/me.webp": "/static/media/me.c92e96b8959fb5fe8504.webp",
     "static/media/Covid19inWorld.png": "/static/media/Covid19inWorld.8538e1220b7edcef0b83.png",
     "static/media/FrontEndMentor.webp": "/static/media/FrontEndMentor.88923baa437bcd41c4ba.webp",
     "static/media/OldPortfolio.webp": "/static/media/OldPortfolio.ded3320c5e4158a6ed79.webp",
     "static/media/LandingPages.webp": "/static/media/LandingPages.e2e41937eaaef42befc1.webp",
     "static/media/RescueGame.webp": "/static/media/RescueGame.ac313874985482c282f7.webp",
-    "static/media/me.webp": "/static/media/me.f3794452ccf8cebe4e18.webp",
     "static/media/eu.webp": "/static/media/eu.990ed5ec41b8fa1de64a.webp",
     "static/media/CartShopping.png": "/static/media/CartShopping.12bd868f77ceecff8338.png",
     "static/media/CurriculumVitae.png": "/static/media/CurriculumVitae.619a2e50079c2bb3e557.png",
+    "static/media/CV.pdf": "/static/media/CV.ac20ff6c7d0474c971ac.pdf",
     "static/media/GithubSearchProfile.webp": "/static/media/GithubSearchProfile.22496ab3e7aafda7bde7.webp",
     "static/media/FinanceControl.png": "/static/media/FinanceControl.cf82b348cd34501dfdb0.png",
     "static/media/RepositorySystem.png": "/static/media/RepositorySystem.3841d3518f3e7ed4e558.png",
     "static/media/GeniusGame.webp": "/static/media/GeniusGame.ddd7e9935bbee93964c8.webp",
     "index.html": "/index.html",
     "static/media/bg-texture.webp": "/static/media/bg-texture.be38216f7555442cb8ad.webp",
-    "main.e8099601.css.map": "/static/css/main.e8099601.css.map",
-    "main.a1d1c0b1.js.map": "/static/js/main.a1d1c0b1.js.map"
+    "main.d8c63b4e.css.map": "/static/css/main.d8c63b4e.css.map",
+    "main.2c83acfa.js.map": "/static/js/main.2c83acfa.js.map"
   },
   "entrypoints": [
-    "static/css/main.e8099601.css",
-    "static/js/main.a1d1c0b1.js"
+    "static/css/main.d8c63b4e.css",
+    "static/js/main.2c83acfa.js"
   ]
 }
