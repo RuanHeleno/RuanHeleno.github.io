@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/static/css/main.d8c63b4e.css",
-    "main.js": "/static/js/main.2c83acfa.js",
+    "main.js": "/static/js/main.c1195f15.js",
     "static/media/me.webp": "/static/media/me.c92e96b8959fb5fe8504.webp",
     "static/media/Covid19inWorld.png": "/static/media/Covid19inWorld.8538e1220b7edcef0b83.png",
     "static/media/FrontEndMentor.webp": "/static/media/FrontEndMentor.88923baa437bcd41c4ba.webp",
@@ -19,10 +19,10 @@
     "index.html": "/index.html",
     "static/media/bg-texture.webp": "/static/media/bg-texture.be38216f7555442cb8ad.webp",
     "main.d8c63b4e.css.map": "/static/css/main.d8c63b4e.css.map",
-    "main.2c83acfa.js.map": "/static/js/main.2c83acfa.js.map"
+    "main.c1195f15.js.map": "/static/js/main.c1195f15.js.map"
   },
   "entrypoints": [
     "static/css/main.d8c63b4e.css",
-    "static/js/main.2c83acfa.js"
+    "static/js/main.c1195f15.js"
   ]
 }
