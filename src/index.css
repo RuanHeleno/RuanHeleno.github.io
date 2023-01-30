@@ -67,7 +67,7 @@ section {
 section>h2,
 section>h5 {
     text-align: center;
-    color: var(--color-light)
+    color: var(--color-light);
 }
 
 section > h2 {

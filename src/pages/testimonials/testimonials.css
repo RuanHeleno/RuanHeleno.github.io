@@ -29,22 +29,7 @@
     font-weight: 300;
     display: block;
     width: 80%;
-    margin: 0.8rem auto 0;/* ==================== MEDIA QUERIES (MD) ==================== */
-    @media screen and (max-width: 1024px) {
-        .portfolio__container {
-            grid-template-columns: 1fr 1fr;
-            gap: 1.2rem;
-        }
-    }
-    
-    /* ==================== MEDIA QUERIES (SM) ==================== */
-    @media screen and (max-width: 600px) {
-        .por
-    tfolio__container {
-            grid-template-columns: 1fr;
-            gap: 1rem;
-        }
-    }
+    margin: 0.8rem auto 0;
 }
 
 /* ==================== MEDIA QUERIES (MD) ==================== */

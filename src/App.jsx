@@ -1,6 +1,6 @@
 import React from "react";
 import {
-  MemoryRouter as Router,
+  BrowserRouter as Router,
   Routes,
   Route,
   Navigate
@@ -35,13 +35,14 @@ const App = () => {
                 <Portfolio />
                 {/* <Testimonials /> */}
                 <Contact />
-                <Footer />
               </>
             }
-          ></Route>
+          >
+          </Route>
           <Route path="*" element={<Navigate to="/" />} />
         </Routes>
       </Router>
+      <Footer />
     </>
   );
 };

@@ -123,6 +123,83 @@ const Skills = () => {
           </div>
         </div>
 
+        <div className="skills__backend">
+          <h3>Soft Skills</h3>
+          <div className="skills__content">
+
+            <article className="skills__details">
+              <BsPatchCheckFill className="skills__details-icon" />
+              <div>
+                <h4>{t('st1')}</h4>
+              </div>
+            </article>
+
+            <article className="skills__details">
+              <BsPatchCheckFill className="skills__details-icon" />
+              <div>
+                <h4>{t('st2')}</h4>
+              </div>
+            </article>
+
+            <article className="skills__details">
+              <BsPatchCheckFill className="skills__details-icon" />
+              <div>
+                <h4>{t('st3')}</h4>
+              </div>
+            </article>
+
+            <article className="skills__details">
+              <BsPatchCheckFill className="skills__details-icon" />
+              <div>
+                <h4>{t('st4')}</h4>
+              </div>
+            </article>
+
+            <article className="skills__details">
+              <BsPatchCheckFill className="skills__details-icon" />
+              <div>
+                <h4>{t('st5')}</h4>
+              </div>
+            </article>
+
+            <article className="skills__details">
+              <BsPatchCheckFill className="skills__details-icon" />
+              <div>
+                <h4>{t('st6')}</h4>
+              </div>
+            </article>
+
+            <article className="skills__details">
+              <BsPatchCheckFill className="skills__details-icon" />
+              <div>
+                <h4>{t('st7')}</h4>
+              </div>
+            </article>
+
+            <article className="skills__details">
+              <BsPatchCheckFill className="skills__details-icon" />
+              <div>
+                <h4>{t('st8')}</h4>
+              </div>
+            </article>
+
+            <article className="skills__details">
+              <BsPatchCheckFill className="skills__details-icon" />
+              <div>
+                <h4>{t('st9')}</h4>
+              </div>
+            </article>
+
+            <article className="skills__details">
+              <BsPatchCheckFill className="skills__details-icon" />
+              <div>
+                <h4>{t('st10')}</h4>
+              </div>
+            </article>
+
+          </div>
+        </div>
+
       </div>
     </section>
   )
