@@ -1,9 +1,10 @@
 {
   "files": {
     "main.css": "/static/css/main.d8c63b4e.css",
-    "main.js": "/static/js/main.0af156bc.js",
+    "main.js": "/static/js/main.4e5373ca.js",
     "static/media/me.webp": "/static/media/me.c92e96b8959fb5fe8504.webp",
     "static/media/Covid19inWorld.png": "/static/media/Covid19inWorld.8538e1220b7edcef0b83.png",
+    "static/media/MoviesLibrary.png": "/static/media/MoviesLibrary.b8a2018df7d4c3e40eca.png",
     "static/media/eu.webp": "/static/media/eu.990ed5ec41b8fa1de64a.webp",
     "static/media/CartShopping.png": "/static/media/CartShopping.12bd868f77ceecff8338.png",
     "static/media/GithubSearchProfile.webp": "/static/media/GithubSearchProfile.22496ab3e7aafda7bde7.webp",
@@ -13,10 +14,10 @@
     "index.html": "/index.html",
     "static/media/bg-texture.webp": "/static/media/bg-texture.be38216f7555442cb8ad.webp",
     "main.d8c63b4e.css.map": "/static/css/main.d8c63b4e.css.map",
-    "main.0af156bc.js.map": "/static/js/main.0af156bc.js.map"
+    "main.4e5373ca.js.map": "/static/js/main.4e5373ca.js.map"
   },
   "entrypoints": [
     "static/css/main.d8c63b4e.css",
-    "static/js/main.0af156bc.js"
+    "static/js/main.4e5373ca.js"
   ]
 }
