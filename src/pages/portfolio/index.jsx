@@ -7,6 +7,8 @@ import FinanceControl from '../../assets/Projects/FinanceControl.png';
 import CartShopping from '../../assets/Projects/CartShopping.png';
 import Covid19inWorld from '../../assets/Projects/Covid19inWorld.png';
 import GithubSearchProfile from '../../assets/Projects/GithubSearchProfile.webp';
+import MoviesLibrary from '../../assets/Projects/MoviesLibrary.png';
+import Pokedex from '../../assets/Projects/Pokedex.png';
 /* import CurriculumVitae from '../../assets/Projects/CurriculumVitae.png';
 import OldPortfolio from '../../assets/Projects/OldPortfolio.webp';
 import FrontEndMentor from '../../assets/Projects/FrontEndMentor.webp';
@@ -54,6 +56,22 @@ const data = [
     languages: ['Javascript', 'React.Js'],
     github: 'https://github.com/RuanHeleno/DIO-Projects/tree/main/GitHubSearchProfile',
     demo: 'https://githubsearchprofiles.netlify.app/'
+  },
+  {
+    id: 6,
+    image: MoviesLibrary,
+    title: 'Movies Library',
+    languages: ['Javascript', 'React.Js', 'Consumo de API'],
+    github: 'https://github.com/RuanHeleno/Movies-Library',
+    demo: 'https://movies-library-rh.netlify.app'
+  },
+  {
+    id: 7,
+    image: Pokedex,
+    title: 'Pokedex',
+    languages: ['Javascript', 'React.Js', 'Axios'],
+    github: 'https://github.com/RuanHeleno/Pokedex',
+    demo: 'https://pokedex-rh.netlify.app'
   },
   /*{
     id: 6,
