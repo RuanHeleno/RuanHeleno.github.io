@@ -45,7 +45,7 @@ const data = [
     id: 4,
     image: Covid19inWorld,
     title: 'Covid19',
-    languages: ['Javascript', 'React.Js'],
+    languages: ['Javascript', 'React.Js', 'Redux'],
     github: 'https://github.com/RuanHeleno/DIO-Projects/tree/main/Covid19PWA',
     demo: 'https://covid19inworld.netlify.app/'
   },
@@ -61,7 +61,7 @@ const data = [
     id: 6,
     image: MoviesLibrary,
     title: 'Movies Library',
-    languages: ['Javascript', 'React.Js', 'Consumo de API'],
+    languages: ['Javascript', 'React.Js', 'Fetch'],
     github: 'https://github.com/RuanHeleno/Movies-Library',
     demo: 'https://movies-library-rh.netlify.app'
   },
@@ -70,7 +70,7 @@ const data = [
     image: Pokedex,
     title: 'Pokedex',
     languages: ['Javascript', 'React.Js', 'Axios'],
-    github: 'https://github.com/RuanHeleno/Pokedex',
+    github: 'https://github.com/RuanHeleno/Pokedex-ReactJs',
     demo: 'https://pokedex-rh.netlify.app'
   },
   /*{
