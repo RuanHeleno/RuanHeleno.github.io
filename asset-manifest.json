@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/static/css/main.d8c63b4e.css",
-    "main.js": "/static/js/main.ed35e3d2.js",
+    "main.js": "/static/js/main.d890b3b8.js",
     "static/media/Pokedex.png": "/static/media/Pokedex.81c1d467d7e04a4c6213.png",
     "static/media/me.webp": "/static/media/me.c92e96b8959fb5fe8504.webp",
     "static/media/Covid19inWorld.png": "/static/media/Covid19inWorld.8538e1220b7edcef0b83.png",
@@ -15,10 +15,10 @@
     "index.html": "/index.html",
     "static/media/bg-texture.webp": "/static/media/bg-texture.be38216f7555442cb8ad.webp",
     "main.d8c63b4e.css.map": "/static/css/main.d8c63b4e.css.map",
-    "main.ed35e3d2.js.map": "/static/js/main.ed35e3d2.js.map"
+    "main.d890b3b8.js.map": "/static/js/main.d890b3b8.js.map"
   },
   "entrypoints": [
     "static/css/main.d8c63b4e.css",
-    "static/js/main.ed35e3d2.js"
+    "static/js/main.d890b3b8.js"
   ]
 }
